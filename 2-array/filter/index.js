@@ -4,7 +4,7 @@ function chooseMultiplesOfThree(collection) {
 
 function chooseNoRepeatNumber(collection) {
   return collection.filter(n => {
-    return n !== n + 1;
+    n !== n + 1;
   });
 }
 
